@@ -6,8 +6,11 @@
         <a href="#">About me</a>
         <a href="#">Contact</a>
       </nav> -->
-      <a class="p-4 bg-gray-400 rounded-full" href="https://yudaicreator.com">Portfolio</a>
+      <a class="pt-3 pb-3 pr-5 pl-5 bg-transparent border-4 border-cta-color rounded-full" href="https://yudaicreator.com">Portfolio</a>
     </header>
+    <section>
+      <h1 class="text-9xl">Hero</h1>
+    </section>
   </div>
 </template>
 
@@ -26,6 +29,7 @@ export default {
   }
 
   body{
+    font-family: 'Nunito', sans-serif;
     background-color: #010713;
     color: #DAE6FF;
 
