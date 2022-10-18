@@ -11,6 +11,8 @@ module.exports = {
       'primary-color': '#001D57',
       'secondary-color': '#2F1484',
       'tertiary-color': '#01BCC9',
+      'gradient-1': '#030E23',
+      'gradient-2': '#010713'
     },
   },
   plugins: [],
