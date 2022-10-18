@@ -10,11 +10,10 @@
         </nav> -->
         <a class="pt-3 pb-3 pr-5 pl-5 bg-transparent border-4 border-cta-color rounded-full" href="https://yudaicreator.com">Portfolio</a>
       </header>
-      <section class="hero_section w-full mt-8 mb-8 relative">
+      <section class="hero_section w-full mt-28 mb-8 relative">
         <!-- <div class="hero_section_circle_blur bg-cta-color w-1/2 h-72 rounded-full"></div> -->
-        
-        <h1 class="text-8xl">My Personal Log</h1>
-        <p class="text-xl mt-4">Hi, Yudai here. Welcome to this space within my system. 
+        <h1 class="text-9xl">My Personal Log</h1>
+        <p class="text-2xl mt-4">Hi, Yudai here. Welcome to this space within my system. 
           I write about Frontend Development, UI Design, and share
           some of thoughts from my experience. Happy reading.
         </p>
@@ -32,7 +31,7 @@
             <img class="w-7" src="https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/bxl-youtube_RfHZRg1AB.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666113204665" alt="youtube link">
           </a>
         </div>
-        <img class="absolute opacity-10 w-1/2 left-1/2" src="https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/Reading_glasses-cuate_qHjpoUd1H.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1665677235075" alt="reading and writing">
+        <img class="bg_img absolute opacity-10 w-1/2 left-1/2" src="https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/Reading_glasses-cuate_qHjpoUd1H.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1665677235075" alt="reading and writing">
       </section>
     </div>
     
@@ -88,7 +87,10 @@ export default {
     background-color: #010713;
     color: #DAE6FF;
 
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
   }
 
   .logo{
@@ -104,7 +106,11 @@ export default {
   }
 
   .hero_section p{
-    max-width: 55ch;
+    max-width: 60ch;
+  }
+
+  .bg_img{
+    top: 55%;
   }
   
 </style>
