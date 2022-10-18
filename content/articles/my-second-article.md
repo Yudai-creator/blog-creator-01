@@ -1,6 +1,9 @@
 ---
 title: My second 222 post yoooo
 description: The dahhhh
+date: OCT 10, 2022
+read: 3 min read
+tag: Frontend Development 
 slug: my-second-article
 img: https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/Intagram_front_post_1___7_CCm2doRWE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665689387108
 ---

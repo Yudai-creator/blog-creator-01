@@ -1,6 +1,9 @@
 ---
 title: My first post yoooo
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at. Rhoncus mattis rhoncus urna neque viverra justo nec. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper 
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at. Rhoncus mattis rhoncus urna neque viverra justo nec. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper
+date: OCT 10, 2022
+read: 3 min read
+tag: Frontend Development 
 slug: my-first-blog-article
 img: https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/css_units___1_ksNePUKjQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665689390465
 ---

@@ -1,4 +1,4 @@
-2<template>
+<template>
   <div class="main_container relative">
     <div class="hero_wrapper h-screen relative">
       <header class="w-full flex justify-between items-center relative">
@@ -38,12 +38,21 @@
 
     <section class="posts">
       <div class="post mb-8" v-for="post of posts" :key="post">
-        <nuxt-link :to="{name: 'slug', params: {slug: post.slug}}">
-          <img class="post_featured_image" :src="`${post.img}`" alt="">
-          <div class="post_details_wrapper">
+        <nuxt-link class="flex" :to="{name: 'slug', params: {slug: post.slug}}">
+          <img class="post_featured_image" :src="`${post.img}`" alt="featured image">
+          <div class="post_details_wrapper ml-8">
             <div class="post_details">
-              <h3>{{post.title}}</h3>
-              <p>{{post.description}}</p>
+              <h3 class="text-4xl font-bold">{{post.title}}</h3>
+              <div class="post_details_data">
+                <span class="mr-2">{{post.date}}</span>
+                *
+                <span class="ml-2 mr-2">{{post.read}}</span>
+                *
+                <span class="text-cta-color ml-2 mr-2">{{post.tag}}</span>
+              </div>
+              <p class="max-w-5xl mt-6">{{post.description}}</p>
+
+              <span class="text-cta-color underline mt-8">Read More</span>
             </div>
           </div>
         </nuxt-link>
@@ -58,7 +67,7 @@ export default {
 
   async asyncData({ $content, params}) {
     const posts = await $content('articles', params.slug)
-      .only(['title', 'description', 'img', 'slug'])
+      .only(['title', 'description', 'img', 'slug', 'date', 'read', 'tag'])
       .sortBy('createdAt', 'asc')
       .fetch();
     
@@ -97,17 +106,25 @@ export default {
     max-width: 5rem;
   }
 
-  .post{
-    border: 2px solid blue;
-  }
+  
 
   .post_featured_image{
     max-width: 10rem;
+    border: 2px solid #00A1FF;
+    border-radius: 5px;
   }
+
+  /* .post_details_data span{
+    
+  } */
 
   .hero_section p{
     max-width: 60ch;
   }
+
+  /* .hero_section_circle_blur{
+    
+  } */
 
   .bg_img{
     top: 55%;
