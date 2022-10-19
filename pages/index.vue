@@ -36,8 +36,9 @@
     </div>
     
 
-    <section class="posts">
-      <div class="post mb-8" v-for="post of posts" :key="post">
+    <section class="posts relative">
+      <h2 class="mb-8 text-4xl font-bold">Articles</h2>
+      <div class="post mb-8 z-10" v-for="post of posts" :key="post">
         <nuxt-link class="flex" :to="{name: 'slug', params: {slug: post.slug}}">
           <img class="post_featured_image" :src="`${post.img}`" alt="featured image">
           <div class="post_details_wrapper ml-8">
@@ -57,6 +58,8 @@
           </div>
         </nuxt-link>
       </div>
+      <img class="w-1/4 -left-52 -top-20 absolute blur-2xl opacity-20 -z-10" src="https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/circle_blur_dRRwkw5lA.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666111898940" alt="blur circle">
+      <img id="bottom_circle" class="w-1/4 top-3/4 absolute blur-2xl opacity-20 -z-10" src="https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/circle_blur_dRRwkw5lA.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666111898940" alt="blur circle">
     </section>
   </div>
 </template>
@@ -128,6 +131,10 @@ export default {
 
   .bg_img{
     top: 55%;
+  }
+
+  #bottom_circle{
+    left: 90%;
   }
   
 </style>

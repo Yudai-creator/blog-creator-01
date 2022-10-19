@@ -1,9 +1,9 @@
 ---
-title: My second 222 post yoooo
-description: The dahhhh
-date: OCT 10, 2022
-read: 3 min read
-tag: Frontend Development 
+title: Color Theory Mini guide for beginners.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at. Rhoncus mattis rhoncus urna neque viverra justo nec. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper
+date: OCT 12, 2022
+read: 5 min read
+tag: UI DESIGN 
 slug: my-second-article
 img: https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/Intagram_front_post_1___7_CCm2doRWE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665689387108
 ---

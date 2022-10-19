@@ -1,9 +1,9 @@
 ---
-title: My third 333 post yoooo
-description: The dahhhh
-date: OCT 10, 2022
-read: 3 min read
-tag: Frontend Development 
+title: What is UX design Fundamentals first.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at. Rhoncus mattis rhoncus urna neque viverra justo nec. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper
+date: OCT 15, 2022
+read: 4 min read
+tag: UI DESIGN 
 slug: my-third-article
 img: https://ik.imagekit.io/u33i3sss0/Portfolio_Website/Blog/Intagram_front_post_1___6_e9mwmpe0L.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665689388260
 ---
