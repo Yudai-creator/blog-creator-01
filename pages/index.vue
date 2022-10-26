@@ -13,10 +13,10 @@
 
       <section class="hero_section w-full mt-28 mb-8 relative">
         <!-- <div class="hero_section_circle_blur bg-cta-color w-1/2 h-72 rounded-full"></div> -->
-        <h1 class="md:text-7xl lg:text-9xl text-4xl font-bold">My Personal Log</h1>
+        <h1 id="special_title" class="md:text-7xl lg:text-9xl text-4xl font-bold">My Personal Log</h1>
         <p class="text-xl md:text-2xl mt-8">Hi, Yudai here. Welcome to this space within my system. 
           I write about Frontend Development, UI Design, and share
-          some of thoughts from my experience. Happy reading.
+          some of my thoughts from my experience. Happy reading.
         </p>
         <div class="hero_social_links mt-8 flex items-center">
           <a href="https://twitter.com/creator_yudai" target="_blank">
@@ -152,5 +152,11 @@ export default {
   /* #post_link>h3:hover{
     color: red;
   } */
+
+  #special_title{
+    font-style: italic;
+    color: #a5deff;
+    text-shadow: -3px 3px 3px #22b7c5, -4px 7px 5px #4598d3, -5px 11px 7px #4d4999, -6px 15px 10px #30287a;
+  }
   
 </style>
